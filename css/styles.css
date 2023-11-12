@@ -20,19 +20,21 @@ body {
 
 .logo {
   font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--IRIS, #4d5ae5);
 }
 .logo-first {
-  color: var(--NAVY-BLUE, #2e2f42);
   font-family: Raleway;
+  text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  color: var(--NAVY-BLUE, #2e2f42);
 }
 
 .menu-link {
@@ -46,6 +48,10 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
+}
+
+.address-list {
+  font-style: normal;
 }
 
 .address-item {
@@ -113,6 +119,13 @@ body {
 
 /*our team*/
 
+.team {
+  background: var(--CLOUD, #f4f4fd);
+}
+.team-person {
+  background: var(--WHITE, #fff);
+}
+
 .employee {
   font-size: 20px;
   font-weight: 500;
@@ -132,6 +145,8 @@ body {
 /*our portfolio*/
 
 .second-title {
+  text-align: center;
+  text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
