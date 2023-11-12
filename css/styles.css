@@ -18,6 +18,10 @@ body {
 
 /*header*/
 
+.main {
+  line-height: 1.17;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -176,11 +180,15 @@ body {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 
+.main {
+  line-height: 1.17;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--IRIS, #4d5ae5);
 }
@@ -189,7 +197,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--CLOUD, #f4f4fd);
 }
