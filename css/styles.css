@@ -160,7 +160,7 @@ body {
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
@@ -169,7 +169,7 @@ body {
 }
 
 .logo-name {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
